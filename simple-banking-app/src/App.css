@@ -1,0 +1,58 @@
+.App{
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px;
+}
+
+h1,h2 {
+  color: #333;
+}
+
+input{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button{
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+button:disabled{
+  background-color: #0056b3;
+}
+
+button :hover{
+  background-color: #0056b3;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px;
+}
+
+.reset-button{
+  background-color: red;
+}
+
+.reset-button :hover{
+  background-color: red;
+}
